@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".activity.Syarat_Ketantuan">
+    <androidx.appcompat.widget.Toolbar
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/hijau"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="20dp"
+
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/beckChatingan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+            <TextView
+                android:layout_toRightOf="@+id/beckChatingan"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/nama_profil"
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/putih"
+                android:layout_centerVertical="true"
+                android:text="Syarat dan Ketentuan"
+                />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:layout_height="match_parent">
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/hitam"
+                android:text="@string/syarat"
+                />
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="149dp"
+            android:id="@+id/gambar_slide"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/intro_awal1"
+            android:layout_centerInParent="true"/>
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/gambar_slide"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shdsjdh"
+                android:id="@+id/keterangan1"
+                android:textSize="16sp"
+                android:textColor="@color/hitam"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku aku "
+                android:id="@+id/keterangan2"
+                android:layout_below="@id/keterangan1"
+                android:layout_marginTop="24dp"
+                android:textSize="12sp"
+                android:textColor="@color/hitam"
+                android:layout_centerHorizontal="true"/>
+<!--            <TextView-->
+<!--                android:gravity="center"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="aku "-->
+<!--                android:id="@+id/keterangan3"-->
+<!--                android:textSize="11sp"-->
+<!--                android:layout_below="@id/keterangan2"-->
+<!--                android:layout_marginTop="48dp"-->
+<!--                android:layout_centerHorizontal="true"/>-->
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

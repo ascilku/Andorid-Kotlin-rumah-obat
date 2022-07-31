@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="12dp"
+    android:layout_height="wrap_content">
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:id="@+id/foto_chat_dari"-->
+<!--        android:layout_width="75dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:src="@drawable/logo1"/>-->
+    <RelativeLayout
+        android:layout_alignParentLeft="true"
+        android:id="@+id/rl1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pesan_chat_dari1_akhiri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/bg_chat_dari_akhir"
+            android:textColor="@color/hitam"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/pesan_chat_dari1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/bg_chat_dari"
+            android:textColor="@color/hitam"
+            android:textSize="14sp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_alignParentRight="true"
+        android:id="@+id/rl2"
+        android:layout_below="@id/rl1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_alignParentRight="true"
+            android:id="@+id/pesan_chat_ke1_akhiri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/bg_chat_ke_akhiri"
+            android:textColor="@color/hitam"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/pesan_chat_ke1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/bg_chat_ke"
+            android:textColor="@color/putih"
+            android:textSize="14sp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_alignParentRight="true"
+        android:id="@+id/rl111"
+        android:layout_below="@+id/rl2"
+        android:layout_width="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+
+            android:layout_alignParentRight="true"
+            android:id="@+id/pesan_chat_peringatan_akhiri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/bg_chat_ke_akhiri"
+            android:textColor="@color/hitam"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/pesan_chat_peringatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/bg_chat_ke"
+            android:textColor="@color/putih"
+            android:textSize="14sp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_below="@id/rl111"
+        android:id="@+id/pesan_chat_akhiri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:background="@drawable/bg_chat_akhiri"
+        android:textColor="@color/golden"
+        android:text="Maaf.!! Sesi Habis."
+        android:textSize="14sp"
+        />
+
+
+
+
+</RelativeLayout>

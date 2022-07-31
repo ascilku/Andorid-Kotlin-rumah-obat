@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Slide_Awal">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/intro_ly1"
+        android:id="@+id/into_ViewPager"/>
+
+    <RelativeLayout
+        android:id="@+id/intro_ly1"
+        android:orientation="vertical"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/keterangan3"
+            android:textSize="11sp"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/keterangan3"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/intro_layout">
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/slide_botton_daftar"
+            android:layout_below="@id/intro_layout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="24sp"
+            android:textColor="@color/putih"
+            android:text="Daftar"
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/border_button_awal"
+            android:layout_marginBottom="24dp"
+            android:layout_height="40dp"/>
+    </RelativeLayout>
+</RelativeLayout>

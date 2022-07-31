@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".fragment.Login_Fragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_login"/>
+    <ImageView
+        android:id="@+id/logo_Login"
+        android:layout_centerHorizontal="true"
+        android:layout_width="79dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/logo1"/>
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_Login"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="19dp"
+        android:textColor="@color/hitam"
+        android:text="@string/sign_in"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_singin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:layout_marginTop="19dp"
+            android:textColor="@color/hitam"
+            android:text="@string/masukkan_nomor_telepon_anda"/>
+        <EditText
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:hint="@string/no_hp"
+            android:textSize="12sp"
+            android:id="@+id/no_Login"
+            android:background="#F4F4F4"
+            android:inputType="number"
+             android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/text_singin"
+            android:layout_height="40dp"/>
+<!--        <EditText-->
+<!--            android:paddingLeft="20dp"-->
+<!--            android:paddingRight="20dp"-->
+<!--            android:hint="Password"-->
+<!--            android:textSize="12dp"-->
+<!--            android:id="@+id/password_Login"-->
+<!--            android:background="#F4F4F4"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:layout_below="@id/no_Login"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="36dp"/>-->
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bottonLogin"
+            android:layout_width="match_parent"
+            android:background="@drawable/border_button_awal"
+            android:textColor="@color/putih"
+            android:layout_marginBottom="30dp"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:layout_height="40dp"/>
+        <TextView
+            android:textSize="12dp"
+            android:id="@+id/klik_daftar"
+            android:layout_below="@+id/bottonLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hijau"
+            android:text="Tidak ada akun.? Klik daftar"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

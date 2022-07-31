@@ -1,0 +1,6 @@
+http://www.codeplayon.com/2018/11/android-dotted-progress-bar-example/
+
+upload foto
+
+https://github.com/delaroy/UploadMedia/blob/master/app/src/main/java/com/delaroystudios/uploadmedia/ImageActivity.java
+https://github.com/delaroy/UploadMedia

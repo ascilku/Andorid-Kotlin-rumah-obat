@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#EDC347</color>
+
+    <color name="hijau">#3C9D9B</color>
+    <color name="putih">#F9F9F9</color>
+    <color name="abuabu">#3C9D9B</color>
+    <color name="background_toolbar">#0AFFFFFF</color>
+    <color name="hitam">#212121</color>
+    <color name="golden">#EDC347</color>
+    <color name="warna_lingkaran">#D4F5D7</color>
+    <color name="warna_lingkaran1">#FFDAC9</color>
+
+    <color name="abu">#D6D5D5</color>
+
+
+    <color name="transparantColor">#cccccc</color>
+
+    <color name="colorPrimaryText">#050505</color>
+</resources>

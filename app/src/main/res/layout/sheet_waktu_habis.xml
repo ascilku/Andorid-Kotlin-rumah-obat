@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="WAKTU HABIS.. !! "
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="#CA0E0E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Silahkan Akhiri Sesi, 1 Menit Kedepan Anda Tidak Mengakhiri, Sistem Akan Otomatis Mengakhiri"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="#666666"
+            android:textSize="15dp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/detail111"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:textSize="15dp"-->
+<!--            android:text="Ceklok IN"-->
+<!--            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"-->
+<!--            android:textColor="#666666" />-->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_pringatan"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:background="@drawable/border_button_cari_apoteker"
+            android:textColor="@color/putih"
+            android:text="Akhiri Sesi"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

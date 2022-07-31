@@ -1,0 +1,2 @@
+nama panjang plus gelar, nomor hp, password, email, alumni pendidikan profesi apoteker, tahun mulai praktek, 
+tempat praktik, foto profil pakai jas apoteker, foto dan nomor stra, foto dan nomor sipa.

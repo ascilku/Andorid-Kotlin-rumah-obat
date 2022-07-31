@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Profil_Data_Apoteker">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true"
+        >
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            android:fitsSystemWindows="true">
+            <ImageView
+                app:layout_collapseMode="parallax"
+                android:src="@drawable/contoh_foto"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_marginTop="-36dp"
+                android:layout_height="300dp" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:title="@string/recent_news"
+                app:layout_collapseMode="pin"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/beckProfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_arrow_back_black_24dp"/>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_margin="16dp"
+            android:id="@+id/nes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/ly1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_below="@+id/foto_list_chat_apoteker_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginRight="8dp"
+                        android:id="@+id/nama_list_chat_apoteker_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/hitam"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Apt. St. Chadijah, S.Farm"
+                        />
+                    <TextView
+                        android:id="@+id/apoteker_list_chat_apoteker_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:ellipsize="end"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="1"
+                        android:layout_below="@+id/nama_list_chat_apoteker_home"
+                        android:text="Apoteker"
+                        />
+                    <TextView
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/harga_list_chat_apoteker_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_below="@+id/nama_list_chat_apoteker_home"
+                        android:textSize="12sp"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:layout_marginRight="8dp"
+                        android:textColor="@color/hijau"
+                        android:text="Gratis"
+                        />
+                    <RatingBar
+                        android:id="@+id/rating_list_chat_apoteker_home"
+                        android:layout_marginTop="4dp"
+                        android:layout_below="@id/harga_list_chat_apoteker_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:stepSize="0.5"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:isIndicator="false"
+                        android:scaleX="0.7"
+                        android:theme="@style/RatingBar"
+                        android:layout_marginLeft="-8dp"
+                        android:progressTint="@color/golden"
+                        android:scaleY="0.7"
+                        android:layout_toRightOf="@+id/nilai_list_chat_apoteker_home"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/nilai_list_chat_apoteker_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/harga_list_chat_apoteker_home"
+                        android:layout_marginTop="5dp"
+                        android:text="5.0"
+                        android:textSize="12sp" />
+                    <ImageView
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="39dp"
+                        android:id="@+id/icon_pengalaman_list_chat_apoteker_home"
+                        android:layout_width="15dp"
+                        android:layout_height="17dp"
+                        android:layout_toRightOf="@+id/rating_list_chat_apoteker_home"
+                        android:layout_below="@id/harga_list_chat_apoteker_home"
+                        android:src="@drawable/icon_pengalaman"/>
+
+                    <TextView
+
+                        android:id="@+id/pengalaman_list_chat_apoteker_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/harga_list_chat_apoteker_home"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/icon_pengalaman_list_chat_apoteker_home"
+                        android:text="@string/_5"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:id="@+id/tahun_list_chat_apoteker_home"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@id/harga_list_chat_apoteker_home"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:layout_toRightOf="@+id/pengalaman_list_chat_apoteker_home"
+                        android:layout_marginRight="8dp"
+                        android:text="@string/tahun"
+                        />
+                    <TextView
+                        android:id="@+id/text_alumni_profil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/alumni"
+                        android:layout_below="@+id/rating_list_chat_apoteker_home"
+                        android:textSize="12sp"
+                        android:layout_marginTop="42dp"
+                        android:textColor="@color/hitam"/>
+                    <TextView
+                        android:id="@+id/alumni_profil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/alumni"
+                        android:layout_below="@+id/text_alumni_profil"
+                        android:textSize="12sp"
+                        android:layout_marginTop="4dp"/>
+                    <TextView
+                        android:id="@+id/text_tempat_praktek_profil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tempat_praktik"
+                        android:layout_below="@+id/alumni_profil"
+                        android:textSize="12sp"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/hitam"/>
+                    <TextView
+                        android:id="@+id/tempat_praktek_profil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tempat_praktik"
+                        android:layout_below="@+id/text_tempat_praktek_profil"
+                        android:textSize="12sp"
+                        android:layout_marginTop="4dp"/>
+
+                    <TextView
+                        android:id="@+id/text_no_stra_profil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nomor_stra"
+                        android:layout_below="@+id/tempat_praktek_profil"
+                        android:textSize="12sp"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/hitam"/>
+                    <TextView
+                        android:id="@+id/no_stra_profil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nomor_stra"
+                        android:layout_below="@+id/text_no_stra_profil"
+                        android:textSize="12sp"
+                        android:layout_marginTop="4dp"/>
+
+                    <TextView
+                        android:id="@+id/text_no_sipa_profil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nomor_stra"
+                        android:layout_below="@+id/no_stra_profil"
+                        android:textSize="12sp"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/hitam"/>
+                    <TextView
+                        android:id="@+id/no_sipa_profil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nomor_stra"
+                        android:layout_below="@+id/text_no_sipa_profil"
+                        android:textSize="12sp"
+                        android:layout_marginTop="4dp"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <Button
+            android:layout_below="@+id/nes"
+            android:id="@+id/chatingan_profil"
+            android:layout_width="match_parent"
+            android:background="@color/hijau"
+            android:layout_height="42dp"
+            android:text="@string/chat"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="@color/putih" />
+        <Button
+            android:layout_below="@+id/nes"
+            android:id="@+id/chatingan_profil_hidden"
+            android:layout_width="match_parent"
+            android:background="@color/abu"
+            android:layout_height="42dp"
+            android:text="@string/chat"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="@color/putih" />
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

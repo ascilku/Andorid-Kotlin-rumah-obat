@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Rumah Obat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip_login">Skip for now</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="no_hp">No Hp</string>
+    <string name="chat">Chat</string>
+    <string name="_5">5</string>
+    <string name="tahun">Tahun</string>
+    <string name="konsultasi">Konsultasi</string>
+    <string name="teman_cerita">Teman Cerita</string>
+    <string name="forum">Forum</string>
+    <string name="cari_apoteker">Cari Apoteker</string>
+    <string name="copyright">Copyright</string>
+    <string name="_2020">2020 Rumah Obat</string>
+    <string name="tulis_pesan_anda">Tulis Pesan Anda</string>
+    <string name="alumni">Alumni</string>
+    <string name="tempat_praktik">Tempat Praktik</string>
+    <string name="nomor_stra">Nomor STRA</string>
+    <string name="sukses">Sukses!</string>
+    <string name="apoteker">Apoteker</string>
+    <string name="pengguna">Pengguna</string>
+    <string name="masukkan_nomor_telepon_anda">Masukkan Nomor Telepon Anda</string>
+    <string name="syarat">
+        Selamat datang sahabat apoteker rumah obat, suatu kehormatan atas kesediaan anda bergabung bersama kami. Mari bersama-sama melindungi masyarakat dari penggunaan obat yang irrasional. \n\n\n
+        Rumah obat adalah sebuah platform yang bertujuan untuk mendekatkan masyarakat dan apoteker dengan fokus pada bidang pelayanan informasi obat dan konseling, serta edukasi farmasi dan kesehatan yang berkesinambungan.\n\n\n
+
+        Praktik Pelayanan Informasi Obat dan Konseling di Apotek merupakan bagian dari pelayanan farmasi klinik sesuai dengan  peraturan menteri kesehatan nomor 73 tahun 2016 tentang standar pelayanan kefarmasian di apotek dan aturan lain yang mendukung hal tersebut.\n\n\n
+        Rumah obat mempertemukan anda para apoteker terbaik dengan masyarakat yang membutuhkan informasi tentang obat dan penggunaannya. Sahabat Apoteker dapat memberikan konsultasi pelayanan informasi obat, maupun bimbingan konseling terkait penggunaan obat.\n\n\n
+
+        Kegiatan konsultasi melalui aplikasi Rumah Obat tidak bertujuan untuk menegakkan diagnosa, memberikan surat keterangan sehat, maupun aktifitas lain diluar tugas dan fungsi apoteker.\n\n\n
+
+        Saat ini pelayanan konseling dan informasi obat oleh apoteker belum memiliki payung hukum maupun standar biaya jasa, sehingga pada awal pengembangan platform ini, kami masih mengharapkan kebaikan hati sahabat apoteker untuk bergabung dengan sukarela. Namun tidak menutup kemungkinan kedepan, apresiasi biaya jasa untuk sahabat apoteker sebagai konselor dapat diadakan seiring dengan meningkatnya permintaan konsultasi.\n\n\n
+
+        Nah, baiklah, kini saatnya kita bersama – sama menggenggam prinsip mulia ini dan bersinergi mewujudkan masyarakat Indonesia yang sehat dan aman dari penggunaan obat yang irasional.\n\n\n
+        Dengan meng-klik “setuju”, anda berarti telah membaca, memahami dan menyetujui Syarat dan Ketentuan yang berlaku di Rumah Obat.\n\n
+
+
+
+    </string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="todo">TODO</string>
+    <string name="lihat_semua">Lihat Semua</string>
+    <string name="yuk_ngobrol_lagi">Yuk ngobrol lagi !</string>
+    <string name="mari_berdiskusi">Mari Berdiskusi</string>
+    <string name="apoteker_favorit">Apoteker Favorit</string>
+    <string name="tahukah_kamu">Tahukah Kamu ?</string>
+    <string name="influenza">Influenza</string>
+    <string name="kurniawan">Kurniawan</string>
+    <string name="apt_st_chadijah_s_farm">Apt. St. Chadijah, S.Farm</string>
+    <string name="nilai">Nilai</string>
+    <string name="teman_chat_sekarang">Teman Chat Sekarang</string>
+    <string name="keterangan_teman_cerita">Sekarang kamu bisa ngobrol banyak hal tentang kesehatan dan lainnya kepada sahabat apoteker yang menjadi teman dekatmu.</string>
+    <string name="bloom_ada_teman_cerita">Belum ada yang bisa kamu ajak cerita :(</string>
+    <string name="ayo_lakukan_teman_cerita">Ayo lakukan konsultasi sebanyak 3 kali kepada Apoteker pilihanmu, lalu jadikan dia teman ceritamu yah :)</string>
+</resources>

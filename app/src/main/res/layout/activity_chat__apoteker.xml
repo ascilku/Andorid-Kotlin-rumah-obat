@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Chat_Apoteker">
+    <androidx.appcompat.widget.Toolbar
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/hijau"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/beckChatingan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_back_black_24dp"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_toRightOf="@+id/beckChatingan"
+                android:id="@+id/beck_profil_Chatingan"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                app:civ_border_color="@color/putih"
+                android:layout_marginLeft="20dp"
+                app:civ_border_width="2dp"
+                android:src="@drawable/logo1"
+                android:layout_toEndOf="@+id/beckChatingan"
+                android:layout_marginStart="20dp" />
+            <TextView
+                android:id="@+id/nama_profil"
+                android:layout_toRightOf="@+id/beck_profil_Chatingan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/putih"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:text="@string/kurniawan"
+                android:layout_toEndOf="@+id/beck_profil_Chatingan"
+                android:layout_marginStart="10dp" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_container_chatingan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/ly_inputan"/>
+                <RelativeLayout
+                    android:id="@+id/ly_inputan"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/beriNilai"
+                        android:layout_width="match_parent"
+                        android:background="@color/hijau"
+                        android:layout_height="42dp"
+                        android:text="Beri Penilai"
+                        android:textAllCaps="false"
+                        android:textSize="16sp"
+                        android:textColor="@color/putih" />
+                    <RelativeLayout
+
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="8dp"
+                            android:src="@drawable/profil"
+                            android:id="@+id/foto_chatingan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <EditText
+                            android:layout_toLeftOf="@+id/bottom_kirimChat"
+                            android:layout_below="@+id/foto_chatingan"
+                            android:id="@+id/text_kirim_chatingan"
+                            android:background="@drawable/radius_editext"
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:paddingLeft="16sp"
+                            android:hint="@string/tulis_pesan_anda"
+                            android:inputType="textMultiLine"
+                            android:textSize="12sp"
+                            android:textColor="@color/hitam"
+                            android:layout_marginEnd="8dp" />
+                        <!--                android:singleLine="false"-->
+                        <ImageView
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@+id/foto_chatingan"
+                           android:background="@drawable/image_shadow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/button_kirim"
+                            android:id="@+id/bottom_kirimChat"/>
+                </RelativeLayout>
+                </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

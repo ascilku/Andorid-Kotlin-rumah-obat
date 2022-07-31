@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:Android="http://schemas.android.com/tools"
+    android:layout_below="@id/cariApoteker_home"
+    app:cardCornerRadius="8dp"
+    android:layout_width="144dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    app:cardElevation="10dp"
+    >
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="132dp"
+            android:background="@color/abu"
+            android:id="@+id/foto_list_chat_apoteker_home"
+            />
+        <RelativeLayout
+            android:id="@+id/ly1"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/foto_list_chat_apoteker_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginRight="8dp"
+                android:id="@+id/nama_list_chat_apoteker_home"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+
+                android:background="@color/abu"
+                />
+            <TextView
+                android:id="@+id/apoteker_list_chat_apoteker_home"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:ellipsize="end"
+                android:layout_marginTop="4dp"
+                android:maxLines="1"
+                android:layout_below="@+id/nama_list_chat_apoteker_home"
+
+                android:background="@color/abu"
+                />
+            <TextView
+                android:id="@+id/harga_list_chat_apoteker_home"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_below="@+id/apoteker_list_chat_apoteker_home"
+                android:textSize="11sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/hijau"
+                android:background="@color/abu"
+                />
+            <TextView
+                android:id="@+id/rating_list_chat_apoteker_home"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_below="@+id/harga_list_chat_apoteker_home"
+                android:textSize="11sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/hijau"
+                android:background="@color/abu"
+                />
+
+
+            <TextView
+                android:id="@+id/tahun_list_chat_apoteker_home"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/harga_list_chat_apoteker_home"
+                android:textSize="11sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/hijau"
+                android:background="@color/abu"
+                />
+
+            <Button
+                android:layout_below="@+id/tahun_list_chat_apoteker_home"
+                android:layout_marginTop="5dp"
+                android:id="@+id/bottonChat_apoteker_hidden"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/abu"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+
+                />
+            <!--            <TextView-->
+            <!--                android:id="@+id/bottonChat_apoteker_hidden"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:textSize="12sp"-->
+            <!--                android:ellipsize="end"-->
+            <!--                android:text="Sibuk"-->
+            <!--                android:layout_marginRight="8dp"-->
+            <!--                android:layout_below="@+id/icon_pengalaman_list_chat_apoteker_home"-->
+            <!--                android:layout_marginTop="5dp"-->
+            <!--                />-->
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

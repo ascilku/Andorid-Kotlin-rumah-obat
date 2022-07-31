@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <corners-->
+<!--        android:topRightRadius="0dp"-->
+<!--        android:topLeftRadius="0dp"-->
+<!--        android:bottomRightRadius="8dp"-->
+<!--        android:bottomLeftRadius="8dp"-->
+<!--        />-->
+<!--&lt;!&ndash;    <solid&ndash;&gt;-->
+<!--&lt;!&ndash;        android:color="@color/hijau"&ndash;&gt;-->
+<!--&lt;!&ndash;        />&ndash;&gt;-->
+
+<!--    <solid android:color="@color/golden"-->
+<!--        android:state_pressed="true" />-->
+
+<!--    &lt;!&ndash; Mendefinisikan button saat terfokus &ndash;&gt;-->
+<!--    <solid android:color="@color/golden"-->
+<!--        android:state_focused="true"-->
+<!--        />-->
+
+<!--    &lt;!&ndash; Mendefinisikan button saat dalam kondisi normal &ndash;&gt;-->
+<!--    <solid android:color="@color/hijau" />-->
+
+    <item android:state_pressed="true">
+
+        <layer-list>
+            <item >
+                <shape >
+                    <corners
+                        android:topRightRadius="8dp"
+                        android:topLeftRadius="8dp"
+                        android:bottomRightRadius="8dp"
+                        android:bottomLeftRadius="8dp"
+                        />
+                    <solid android:color="@color/golden" />
+<!--                    <padding android:padding="8dp" />-->
+<!--                    <size android:width="150dp" android:height="40dp" />-->
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+    <item android:state_focused="true">
+
+        <layer-list>
+            <item >
+                <shape >
+                    <corners
+
+                        android:topRightRadius="8dp"
+                        android:topLeftRadius="8dp"
+                        android:bottomRightRadius="8dp"
+                        android:bottomLeftRadius="8dp"
+
+                        />
+                    <solid android:color="@color/golden" />
+<!--                    <padding android:padding="8dp" />-->
+<!--                    <size android:width="150dp" android:height="40dp" />-->
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+
+    <item>
+
+        <layer-list>
+            <item >
+                <shape >
+                    <corners
+
+                        android:topRightRadius="8dp"
+                        android:topLeftRadius="8dp"
+                        android:bottomRightRadius="8dp"
+                        android:bottomLeftRadius="8dp"
+
+                        />
+                    <solid android:color="@color/hijau" />
+<!--                    <padding android:padding="8dp" />-->
+<!--                    <size android:width="150dp" android:height="40dp" />-->
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+
+</selector>
+

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ui_users.Teman_Cerita">
+
+    tools:context=".activity.Konsultasi">
+    <androidx.appcompat.widget.Toolbar
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/hijau"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/beckTemanCerita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+            <TextView
+                android:id="@+id/nama_profil"
+                android:layout_toRightOf="@+id/beck_profil_Chatingan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/putih"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:text="Teman Cerita"
+                />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp"
+        android:layout_marginTop="40dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/lyError"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/gambar_teman_cerita"
+                        android:layout_width="203dp"
+                        android:layout_height="193dp"
+                        android:src="@drawable/tidak_ada_teman"/>
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/text1_teman_cerita"
+                        android:layout_marginTop="40dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/hitam"
+                        android:layout_below="@+id/gambar_teman_cerita"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bloom_ada_teman_cerita"/>
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/text2_teman_cerita"
+                        android:layout_below="@+id/text1_teman_cerita"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/ayo_lakukan_teman_cerita"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/lytidakError"
+                android:paddingTop="16dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text_temancarita"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:text="@string/keterangan_teman_cerita"
+                    android:textColor="@color/hitam"
+                    />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_below="@+id/text_temancarita"
+                    android:id="@+id/rvTemanCerita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/item1_teman_cerita"/>
+            </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

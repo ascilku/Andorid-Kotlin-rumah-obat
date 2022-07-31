@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ui_apoteker.coba.TreedCoba">
+   <RelativeLayout
+       android:layout_marginTop="40dp"
+       android:layout_centerInParent="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <TextView
+           android:textSize="40dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="treed 1"
+           android:id="@+id/treed1"/>
+
+       <TextView
+           android:textSize="40dp"
+           android:layout_below="@+id/treed1"
+           android:layout_marginTop="40dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="treed 2"
+           android:id="@+id/treed2"/>
+
+       <TextView
+           android:textSize="40dp"
+           android:layout_below="@+id/treed2"
+           android:layout_marginTop="40dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="treed 3"
+           android:id="@+id/treed3"/>
+
+       <TextView
+           android:textSize="40dp"
+           android:layout_below="@+id/treed3"
+           android:layout_marginTop="40dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="treed 4"
+           android:id="@+id/treed4"/>
+
+       <TextView
+           android:textSize="40dp"
+           android:layout_below="@+id/treed4"
+           android:layout_marginTop="40dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="treed 5"
+           android:id="@+id/treed5"/>
+
+       <TextView
+           android:textSize="40dp"
+           android:layout_below="@+id/treed5"
+           android:layout_marginTop="40dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="treed 6"
+           android:id="@+id/treed6"/>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_below="@+id/treed6"
+           android:id="@+id/pndah"
+           android:layout_height="wrap_content"
+           />
+   </RelativeLayout>
+</RelativeLayout>
